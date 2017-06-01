@@ -37,6 +37,7 @@ p.leftmargin {
     <div class="nav_m">
         <div class="n_icon">&nbsp;</div>
         <ul class="nav clearfix">
+            <li><a href="user_0.index.jsp">首页</a></li>
             <li class="now"><a href="user_1.info.jsp">企业信息</a></li>
             <li><a href="user_2.dataFill.jsp">数据填报</a></li>
             <li><a href="user_3.dataInquire.jsp">数据查询</a></li>
@@ -44,33 +45,31 @@ p.leftmargin {
     </div>
 </div>
 
-<!--头部-->
 <div class="space_hx">&nbsp;</div>
 <div class="space_hx">&nbsp;</div>
 <div class="scd clearfix">
-	<div class="scd_l">
-    	<div class="title"><span>功能列表</span></div>
-        <div class="scd_lm">
-            <ul class="s_nav s_nav_a">
-                <li>
-                    <div class="li_m">
-                        <a href="user_1_input.jsp"><span>信息录入</span></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="li_m">
-                        <a href="user_1_modify.jsp"><span>信息修改</span></a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-		<div class="scd_m">
-			<ul class="alfx clearfix">
-			</ul>
+	
+	<div class="scd_r">
+<font size=3>
 
+<form id="user_info" name="user_info" method ="post">  
+  <table align = "left" border="0" cellpadding="0" cellspacing="5">
+        <tr><td>所属地区：</td><td><input id="place" name="place" type="text" /></td></tr>
+        <tr><td>企业机构代码：</td><td><input id="number" name="number" type="text" /></td></tr>
+        <tr><td>企业名称：</td><td><input id="name" name="name" type="text" /></td></tr>
+        <tr><td>企业性质：</td><td><input id="xingzhi" name="xingzhi" type="text" /></td></tr>
+        <tr><td>所属行业：</td><td><input id="hangye" name="hangye" type="text" /></td></tr>
+        <tr><td>主要经营业务：</td><td><input id="yewu" name="yewu" type="text" /></td></tr>
+        <tr><td>联系人：</td><td><input id="contact" name="contact" type="text" /></td></tr>
+        <tr><td>联系地址：</td><td><input id="address" name="address" type="text" /></td></tr>
+        <tr><td>邮政编码：</td><td><input id="zipcode" name="zipcode" type="text" /></td></tr>
+        <tr><td>联系电话：</td><td><input id="tel" name="tel" type="text" /></td></tr>
+        <tr><td>传真：</td><td><input id="fax" name="fax" type="text" /></td></tr>
+        <tr><td>EMAIL：</td><td><input id="EMAIL" name="EMAIL" type="text" /></td></tr>
+        <tr><td><input id="subinfo"  name ="subinfo" type="submit" value="保存修改" /></td></tr>
+     </table>
+</form>
 		</div>
-	</div>
 </div>
 
 </body>

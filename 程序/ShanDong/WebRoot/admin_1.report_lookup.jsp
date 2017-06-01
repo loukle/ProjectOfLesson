@@ -28,7 +28,7 @@ p.leftmargin {
 }
 </style>
 </head>
-  <body>
+
 <!--头部-->
 <div class="header">
 <div class="space_hx">&nbsp;</div>
@@ -37,29 +37,44 @@ p.leftmargin {
     <div class="nav_m">
         <div class="n_icon">&nbsp;</div>
         <ul class="nav clearfix">
+            <li><a href="admin_0.corpSearch.jsp">企业查询</a></li>
+            <li class="now"><a href="admin_1.report_lookup.jsp">报表管理</a></li>
+            <li><a href="admin_2.dataAnalyze_multi-dimensional.jsp">数据分析</a></li>
+            <li><a href="admin_3.systemManagement_notify.jsp">系统管理</a></li>
         </ul>
     </div>
 </div>
-	<hr>
-	<font size="6"> <br> <br>
-		<table align="center" width="300" height="200">
-			<tr>
-				<td align="center"><font size="6">登录界面</font></td>
-			</tr>
-			<tr>
-				<td align="center">
-					<form padding-top="0" action="login_Temp.jsp" method="post">
-						账号: <input type="text" name="account"> <br> 密码: <input
-							type="password" name="password"> <br> <br> <select
-							id='person' name='person'>
-							<option value="0">省用户</option>
-							<option value="1">市用户</option>
-							<option value="2">企业用户</option>
-						</select> <br> <br> <input type="submit" name="b" value="确认">
-					</form>
-				</td>
-			</tr>
-		</table>
-	</font>
-</body>
+<!--头部-->
+<div class="space_hx">&nbsp;</div>
+<div class="space_hx">&nbsp;</div>
+<div class="scd clearfix">
+	<div class="scd_l">
+    	<div class="title"><span>报表管理</span></div>
+        <div class="scd_lm">
+            <ul class="s_nav s_nav_a">
+                <li class="now">
+                    <div class="li_m">
+                        <a href="admin_1.report_lookup.jsp"><span>查看</span></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="li_m">
+                        <a href="admin_1.report_show.jsp"><span>上报</span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="scd_r">
+    	<div class="title">
+        	<span>查看</span>
+        </div>
+        <div class="scd_m">
+        	<ul class="alfx clearfix">
+            </ul>
+            
+    </div>
+</div>
+</div>
+
 </html>

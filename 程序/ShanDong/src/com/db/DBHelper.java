@@ -3,7 +3,7 @@ package com.db;
 import java.sql.*;
 
 public class DBHelper {	
-	private String dbUrl="jdbc:mysql://localhost:3306/sushe";
+	private String dbUrl="jdbc:mysql://localhost:3306/mydatabase111";
 	private String dbUser="root";
 	private String dbPassword="root";
 	private String jdbcName="com.mysql.jdbc.Driver";
@@ -22,6 +22,11 @@ public class DBHelper {
 		return conn;		
 	}
 	
-
+//    ≤‚ ‘
+	public static void main(String[] args)
+	{
+		System.out.println(new DBHelper().getConn());
+		
+	}
 	
 }

@@ -26,20 +26,9 @@
 p.leftmargin {
 	margin-left: 35%
 }
-
-.download{margin-left: 30%
-   
-}
-.datafill{
-	text-align:center;
-}
-.input{text-align:center;}
-.clear{clear:both;}
-.ehdel_upload_show input{float:center; margin-top:10px;}
-.ehdel_upload{float:center;margin-top:-20px; *margin-top:-40px; filter:alpha(opacity=0);-moz-opacity:0;opacity:0;}
 </style>
 </head>
-
+<body>
 <!--头部-->
 <div class="header">
 <div class="space_hx">&nbsp;</div>
@@ -47,48 +36,17 @@ p.leftmargin {
     <div class="space_hx">&nbsp;</div>
     <div class="nav_m">
         <div class="n_icon">&nbsp;</div>
-        <div>
         <ul class="nav clearfix">
-            <li><a href="user_0.index.jsp">首页</a></li>
+            <li class="now"><a href="user_0.index.jsp">首页</a></li>
             <li><a href="user_1.info.jsp">企业信息</a></li>
             <li><a href="user_2.dataFill.jsp">数据填报</a></li>
-            <li class="now"><a href="user_3.dataInquire.jsp">数据查询</a></li>
+            <li><a href="user_3.dataInquire.jsp">数据查询</a></li>
         </ul>
-        </div>
-        </div>
-        <br/><br/><br/><br/>
-	<form id="user_dataInquire" name="user_dataInquire" method=post>
-		请选择您要查询的调查期：  &nbsp;&nbsp;&nbsp;
-			<select id='select' name='select'>
-				<option value="0">1月上</option>
-				<option value="0">1月下</option>
-				<option value="0">2月上</option>
-				<option value="0">2月下</option>
-				<option value="0">3月上</option>
-				<option value="0">3月下</option>
-				<option value="0">4月</option>
-				<option value="0">5月</option>
-				<option value="0">6月</option>
-				<option value="0">7月</option>
-				<option value="0">8月</option>
-				<option value="0">9月</option>
-				<option value="0">10月</option>
-				<option value="0">11月</option>
-				<option value="0">12月</option>
-		</select> &nbsp;&nbsp;&nbsp;
-		  <input type="submit" name="b" value="确认">
-	</form>
-
-
-
+    </div>
 </div>
-	
-	
-	
-	
-	
-	
-	
+<br/><br/><br/><br/><br/><br/>
+<p>这里显示通知</p><br/><br/><br/><br/><br/><br/>
+<p>这里显示是否审核通过</p>
 
 </body>
 </html>
